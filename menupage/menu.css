@@ -43,35 +43,10 @@ nav > #find {
   text-align: center;
   text-decoration: none;
 }
-nav > #menu {
+nav > #home {
   border: 2px solid black;
   width: 36vw;
   padding: 20px;
   text-align: center;
   text-decoration: none;
-}
-
-#oven {
-  display: grid;
-  width: 100vw;
-  padding-bottom: 10px;
-}
-
-article > h1 {
-  text-align: center;
-  padding: 10px;
-}
-article > p {
-  text-align: left;
-  padding: 5px;
-}
-
-footer {
-  background-color: black;
-  color: white;
-  padding-top: 10px;
-  font-size: 10pt;
-  height: 3vh;
-  text-align: left;
-  text-justify: center;
-}/*# sourceMappingURL=welcomePage.css.map */
+}/*# sourceMappingURL=menu.css.map */
