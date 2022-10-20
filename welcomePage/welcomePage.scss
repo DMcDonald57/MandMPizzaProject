@@ -20,6 +20,9 @@ html{
         align-self: center;
         font-family: cursive;
         font-size: 20pt;
+    >span{
+        padding: 5px;
+        }
     }
     }
 
@@ -29,16 +32,14 @@ html{
         grid-auto-flow: column;
         padding: 20px 5px 20px 10px;
         font-size: 19pt;
-        
-        
-    >#find{
+        >#find{
         border: 2px solid black;
         width: 36vw;
         padding: 20px;
         text-align: center;
         text-decoration: none;
         }   
-    >#menu{
+        >#menu{
         border: 2px solid black;
         width: 36vw;
         padding: 20px;
@@ -49,4 +50,24 @@ html{
     #oven{
         display: grid;
         width: 100vw;
+        padding-bottom: 10px;
+    }
+    article{
+        >h1{
+        text-align: center;
+        padding: 10px;        
+        }
+        >p{
+            text-align: left;
+            padding: 5px;
+        }
+    }
+    footer{
+        background-color: black;
+        color: white;
+        padding-top: 10px;
+        font-size: 10pt;
+        height: 3vh;
+        text-align: left;
+        text-justify: center;
     }
