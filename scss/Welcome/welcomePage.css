@@ -14,7 +14,7 @@ html {
 header {
   display: grid;
   background-color: orangered;
-  grid-template-columns: 25vw 75vw;
+  grid-template-columns: 1fr 3fr;
   height: 15vh;
 }
 header > p {
@@ -23,6 +23,9 @@ header > p {
   font-size: 16pt;
   padding-top: 2vh;
   font-family: cursive;
+}
+header > span {
+  display: none;
 }
 
 nav {
@@ -73,4 +76,21 @@ footer {
   color: white;
   font-size: 8pt;
   padding-top: 1vh;
+}
+
+@media only screen and (min-width: 650px) {
+  #logo {
+    height: 25vh;
+  }
+  header {
+    grid-template-columns: 1fr 2fr 2fr;
+    height: 25vh;
+  }
+  header > span {
+    display: initial;
+    text-align: center;
+    font-size: 24pt;
+    padding-top: 2vh;
+    font-family: cursive;
+  }
 }/*# sourceMappingURL=welcomePage.css.map */
