@@ -8,33 +8,64 @@ html{
 }
 
 #logo{
-    height: 10vh;
+    height: 15vh;
     }
 
 header{
         display: grid;
         background-color: orangered;
-        grid-template-columns: 1fr 1fr;
-        height: 10vh;
-        
-        
-        
-        
+        grid-template-columns: 25vw 75vw;
+        height: 15vh;
+        >p{
+            display: grid;
+            text-align: center;
+            font-size: 16pt;
+            padding-top: 2vh;
+            font-family: cursive;
+        }
     }
-
-
     nav{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        padding: 20px 5px 20px 10px;
         font-size: 19pt;
+        padding: 1vh;
 
         >#find{
             background-color: orangered;
             border: 2px solid black;
+            margin-right: 1vw;
+            text-align: center;
+            padding: 2vh;
+            text-decoration: none;
+            font-weight: bold;
         }   
         >#menu{
             background-color: orangered;
             border: 2px solid black;
+            margin-left: 1vw;
+            text-align: center;
+            padding: 2vh;
+            text-decoration: none;
+            font-weight: bold;
         }
+    }
+    #oven{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    article{
+        >h1{
+            text-align: center;
+            padding-top: 2vh;
+        }
+        >p{
+            padding: 1vh;
+        }
+    }
+    footer{
+        background-color: black;
+        color: white;
+        font-size: 8pt;
+        padding: 1vh;
     }
