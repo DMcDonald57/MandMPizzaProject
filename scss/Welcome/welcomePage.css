@@ -64,9 +64,13 @@ article > p {
   padding: 1vh;
 }
 
+section {
+  padding: 2vh;
+}
+
 footer {
   background-color: black;
   color: white;
   font-size: 8pt;
-  padding: 1vh;
+  padding-top: 1vh;
 }/*# sourceMappingURL=welcomePage.css.map */

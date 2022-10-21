@@ -1,0 +1,17 @@
+#logo{
+    height: 15vh;
+    }
+
+header{
+        display: grid;
+        background-color: orangered;
+        grid-template-columns: 25vw 75vw;
+        height: 15vh;
+        >p{
+            display: grid;
+            text-align: center;
+            font-size: 16pt;
+            padding-top: 2vh;
+            font-family: cursive;
+        }
+    }

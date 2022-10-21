@@ -1,11 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-html{
-    background-color: moccasin;
-}
+@use "pageinfo";
 
 #logo{
     height: 15vh;
@@ -24,6 +17,7 @@ header{
             font-family: cursive;
         }
     }
+
     nav{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -63,9 +57,12 @@ header{
             padding: 1vh;
         }
     }
+    section{
+        padding: 2vh;
+    }
     footer{
         background-color: black;
         color: white;
         font-size: 8pt;
-        padding: 1vh;
+        padding-top: 1vh;
     }
