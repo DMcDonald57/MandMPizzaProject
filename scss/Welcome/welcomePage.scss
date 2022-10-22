@@ -60,9 +60,18 @@ header{
             padding: 1vh;
         }
     }
-    section{
+    .video{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
         padding: 2vh;
+        >#brick{
+            display: none;
+            position: relative;
+            height: 40vh;
+            padding-left: 1vh;
+        }
     }
+
     footer{
         background-color: black;
         color: white;
@@ -84,5 +93,10 @@ header{
                 padding-top: 2vh;
                 font-family: cursive;
             }
-            }   
-    }
+            }
+        .video{
+        #brick{
+            display: initial;
+        }
+        }  
+    } 

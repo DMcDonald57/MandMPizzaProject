@@ -67,8 +67,16 @@ article > p {
   padding: 1vh;
 }
 
-section {
+.video {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
   padding: 2vh;
+}
+.video > #brick {
+  display: none;
+  position: relative;
+  height: 40vh;
+  padding-left: 1vh;
 }
 
 footer {
@@ -92,5 +100,8 @@ footer {
     font-size: 24pt;
     padding-top: 2vh;
     font-family: cursive;
+  }
+  .video #brick {
+    display: initial;
   }
 }/*# sourceMappingURL=welcomePage.css.map */
