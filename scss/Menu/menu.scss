@@ -93,3 +93,25 @@ nav{
             margin: 5px;
         }
         }
+    .drinks{
+        display: grid;
+        >span img{
+            height: 70px;
+        }
+    }
+    .beer{
+        display: grid;
+        >span{
+            justify-self: center;
+        }
+        >span img{
+            height: 125px;
+        }
+    }
+    footer{
+        background-color: black;
+        color: white;
+        font-size: 8pt;
+        padding-top: 1vh;
+    }
+

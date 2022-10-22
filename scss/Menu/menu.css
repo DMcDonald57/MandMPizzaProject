@@ -92,4 +92,28 @@ article > p {
   text-align: center;
   font-weight: bold;
   margin: 5px;
+}
+
+.drinks {
+  display: grid;
+}
+.drinks > span img {
+  height: 70px;
+}
+
+.beer {
+  display: grid;
+}
+.beer > span {
+  justify-self: center;
+}
+.beer > span img {
+  height: 125px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-size: 8pt;
+  padding-top: 1vh;
 }/*# sourceMappingURL=menu.css.map */
