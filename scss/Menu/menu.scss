@@ -52,7 +52,7 @@ nav{
         font-weight: bold;
     }
 }
-    #stBanner{
+    #Banner{
         background-color: firebrick;
         border: 2px solid black;
         color: white;
@@ -62,19 +62,19 @@ nav{
         margin: 1vh;
     }
 
-    .starter{
-        background-color: palegoldenrod;
+    .menu{
         display:grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        border: 2px solid black;
-        margin: 1vh;
-        height: 50vh;
-        width: 50vw;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        margin: 2vh;
+        
     }
 
         article{
             display: grid;
+            background-color: palegoldenrod;
             grid-auto-rows: auto;
+            border: 2px solid black;
+            margin: 2vh;
         
         >h5{
             text-align: center;
