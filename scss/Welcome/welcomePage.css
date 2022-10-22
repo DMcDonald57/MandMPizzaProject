@@ -26,7 +26,12 @@ header > p {
 }
 header > span {
   display: none;
-  font-family: "Italianno";
+  font-weight: bold;
+  align-self: center;
+}
+header #plainphone {
+  display: none;
+  color: black;
 }
 
 nav {
@@ -100,9 +105,15 @@ footer {
   header > span {
     display: initial;
     text-align: center;
-    font-size: 24pt;
+    font-size: 36pt;
     padding-top: 2vh;
     font-family: "Italianno";
+  }
+  header #plainphone {
+    display: initial;
+  }
+  header #clickphone {
+    display: none;
   }
   .video {
     grid-template-columns: 1fr 1fr 1fr;

@@ -18,7 +18,12 @@ header{
         }
         >span{
             display: none;
-            font-family: "Italianno";
+            font-weight: bold;
+            align-self: center;
+        }
+        #plainphone{
+            display: none;
+            color: black;
         }
     }
 
@@ -94,9 +99,15 @@ header{
             >span{
                 display: initial;
                 text-align: center;
-                font-size: 24pt;
+                font-size: 36pt;
                 padding-top: 2vh;
                 font-family: "Italianno";
+            }
+            #plainphone{
+                display: initial;
+            }
+            #clickphone{
+                display: none;
             }
             }
         .video{
