@@ -1,41 +1,68 @@
-@use "general";
-@use "header";
+*{
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    height: 15vh;
+    }
 
 html{
     background-color: moccasin;
 }
-
-    nav{
+header{
+    display: grid;
+    background-color: orangered;
+    grid-template-columns: 1fr 3fr;
+    height: 15vh;
+    >p{
         display: grid;
-        grid-template-columns: repeat(auto-fit,minmax (250px,1fr));
-        grid-auto-flow: column;
-        padding: 20px 5px 20px 10px;
-        font-size: 19pt;
-        align-items: center;
-        >#find{
-            background-color: rgb(252, 109, 6);
-            border: 2px solid black;
-            width: 36vw;
-            padding: 20px;
-            text-align: center;
-            text-decoration: none;
-            }   
-        >#home{
-            background-color: rgb(252, 109, 6);
-            border: 2px solid black;
-            width: 36vw;
-            padding: 20px;
-            text-align: center;
-            text-decoration: none;
-            }
+        text-align: center;
+        font-size: 16pt;
+        padding-top: 2vh;
+        font-family: cursive;
     }
+    >span{
+        display: none;
+        font-family: "Italianno";
+    }
+}
 
-    .starter h4{
-        background-color: rgb(252, 109, 6);
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 19pt;
+    padding: 1vh;
+
+    >#find{
+        background-color: orangered;
+        border: 2px solid black;
+        margin-right: 1vw;
+        text-align: center;
+        padding: 2vh;
+        text-decoration: none;
+        font-weight: bold;
+    }   
+    >#home{
+        background-color: orangered;
+        border: 2px solid black;
+        margin-left: 1vw;
+        text-align: center;
+        padding: 2vh;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+    #stBanner{
+        background-color: orangered;
         border: 2px solid black;
         color: black;
         font-size: 16pt;
         height: 5vh;
         text-align: center;
+        margin: 1vh;
+    }
 
+    .starter{
+        display:grid;
+        grid-template-columns: repeat(auto-fit,minmax (250px, 1fr));
     }
