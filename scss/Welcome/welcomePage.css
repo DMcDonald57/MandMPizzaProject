@@ -26,6 +26,7 @@ header > p {
 }
 header > span {
   display: none;
+  font-family: "Italianno";
 }
 
 nav {
@@ -69,14 +70,16 @@ article > p {
 
 .video {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
   padding: 2vh;
+  justify-items: center;
 }
 .video > #brick {
   display: none;
-  position: relative;
-  height: 40vh;
-  padding-left: 1vh;
+  padding-left: 2vw;
+}
+.video > #brick2 {
+  display: none;
 }
 
 footer {
@@ -99,9 +102,48 @@ footer {
     text-align: center;
     font-size: 24pt;
     padding-top: 2vh;
-    font-family: cursive;
+    font-family: "Italianno";
+  }
+  .video {
+    grid-template-columns: 1fr 1fr 1fr;
   }
   .video #brick {
     display: initial;
+    height: 40vh;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  #logo {
+    height: 30vh;
+  }
+  header {
+    height: 30vh;
+  }
+  header > span {
+    font-size: 32pt;
+    align-self: center;
+    font-family: cursive;
+  }
+  header > p {
+    font-size: 26pt;
+  }
+  nav {
+    font-size: 30pt;
+  }
+  article > h1 {
+    font-size: 24pt;
+  }
+  article > p {
+    font-size: 16pt;
+  }
+  .video {
+    justify-items: center;
+  }
+  .video #brick {
+    padding-left: 0;
+  }
+  .video #brick2 {
+    display: initial;
+    height: 40vh;
   }
 }/*# sourceMappingURL=welcomePage.css.map */

@@ -18,6 +18,7 @@ header{
         }
         >span{
             display: none;
+            font-family: "Italianno";
         }
     }
 
@@ -62,13 +63,15 @@ header{
     }
     .video{
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 1fr 1fr;
         padding: 2vh;
+        justify-items: center;
         >#brick{
             display: none;
-            position: relative;
-            height: 40vh;
-            padding-left: 1vh;
+            padding-left: 2vw;
+            }
+        >#brick2{
+            display:none;
         }
     }
 
@@ -78,6 +81,8 @@ header{
         font-size: 8pt;
         padding-top: 1vh;
     }
+    // This is the start of Tablet format
+
     @media only screen and (min-width: 650px){
         #logo{
             height: 25vh;
@@ -91,12 +96,56 @@ header{
                 text-align: center;
                 font-size: 24pt;
                 padding-top: 2vh;
-                font-family: cursive;
+                font-family: "Italianno";
             }
             }
         .video{
+            grid-template-columns: 1fr 1fr 1fr;
         #brick{
             display: initial;
+            height: 40vh;
         }
         }  
     } 
+
+    // This is the start of desktop format
+
+    @media only screen and (min-width: 1000px){
+        #logo{
+            height: 30vh;
+        }
+        header{
+            height: 30vh;
+            >span{
+                font-size: 32pt;
+                align-self: center;
+                font-family: cursive;
+            }
+            >p{
+                font-size: 26pt;
+            }
+        }
+        nav{
+            font-size: 30pt;
+        }
+        article{
+            >h1{
+                font-size: 24pt;
+            }
+            >p{
+                font-size: 16pt;
+            }
+        }
+        .video{
+            justify-items: center;
+            
+            #brick{
+                padding-left: 0;
+            }
+            #brick2{
+                display: initial;
+                height: 40vh;
+            }
+            }  
+    
+    }
