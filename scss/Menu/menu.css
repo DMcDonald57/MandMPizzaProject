@@ -28,6 +28,10 @@ header > span {
   display: none;
   font-family: "Italianno";
 }
+header #plainphone {
+  display: none;
+  color: black;
+}
 
 nav {
   display: grid;
@@ -116,4 +120,41 @@ footer {
   color: white;
   font-size: 8pt;
   padding-top: 1vh;
+}
+
+@media only screen and (min-width: 650px) {
+  #logo {
+    height: 25vh;
+  }
+  header {
+    grid-template-columns: 1fr 2fr 2fr;
+    height: 25vh;
+  }
+  header > span {
+    display: initial;
+    text-align: center;
+    font-size: 32pt;
+    padding-top: 2vh;
+    font-family: "Italianno";
+    font-weight: bold;
+  }
+  header #plainphone {
+    display: initial;
+  }
+  header #clickphone {
+    display: none;
+  }
+  header > p {
+    font-size: 20pt;
+  }
+  .menu {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin: 2vh;
+  }
+  .drinks > span img {
+    height: 80px;
+  }
+  .drinks > span {
+    justify-self: center;
+  }
 }/*# sourceMappingURL=menu.css.map */

@@ -28,6 +28,7 @@ header > span {
   display: none;
   font-weight: bold;
   align-self: center;
+  font-family: "Italianno";
 }
 header #plainphone {
   display: none;
@@ -105,7 +106,7 @@ footer {
   header > span {
     display: initial;
     text-align: center;
-    font-size: 36pt;
+    font-size: 32pt;
     padding-top: 2vh;
     font-family: "Italianno";
   }
@@ -114,6 +115,9 @@ footer {
   }
   header #clickphone {
     display: none;
+  }
+  header > p {
+    font-size: 20pt;
   }
   .video {
     grid-template-columns: 1fr 1fr 1fr;
@@ -131,9 +135,9 @@ footer {
     height: 30vh;
   }
   header > span {
-    font-size: 32pt;
+    font-size: 44pt;
     align-self: center;
-    font-family: cursive;
+    font-family: "Italianno";
   }
   header > p {
     font-size: 26pt;

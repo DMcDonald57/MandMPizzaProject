@@ -25,6 +25,11 @@ header{
         display: none;
         font-family: "Italianno";
     }
+    #plainphone{
+        display: none;
+        color: black;
+    }
+
 }
 
 nav{
@@ -115,3 +120,44 @@ nav{
         padding-top: 1vh;
     }
 
+    // This is the start of the Tablet size screen
+
+    @media only screen and (min-width: 650px){
+        #logo{
+            height: 25vh;
+            }
+        
+        header{
+            grid-template-columns: 1fr 2fr 2fr;
+            height: 25vh;
+            >span{
+                display: initial;
+                text-align: center;
+                font-size: 32pt;
+                padding-top: 2vh;
+                font-family: "Italianno";
+                font-weight: bold;
+            }
+            #plainphone{
+                display: initial;
+            }
+            #clickphone{
+                display: none;
+            }
+            >p{
+                font-size: 20pt;
+            }
+        }
+        .menu{
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            margin: 2vh;
+        }
+        .drinks{
+            >span img{
+                height: 80px;
+            }
+            >span{
+                justify-self: center;
+            }
+        }
+    }
