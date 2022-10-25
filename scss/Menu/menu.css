@@ -61,7 +61,7 @@ nav > #home {
 #Banner {
   background-color: firebrick;
   border: 2px solid black;
-  color: white;
+  color: moccasin;
   font-size: 16pt;
   height: 5vh;
   text-align: center;
@@ -151,10 +151,91 @@ footer {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     margin: 2vh;
   }
+  .menu article > h5 {
+    text-align: center;
+    font-size: 1.75rem;
+    margin: 1vh;
+  }
+  .menu article > img {
+    height: 175px;
+    width: 175px;
+    justify-self: center;
+  }
+  .menu article > p {
+    font-size: 14pt;
+    text-align: center;
+    font-weight: bold;
+    margin: 5px;
+  }
+  #Banner {
+    font-size: 2rem;
+    height: 7vh;
+  }
   .drinks > span img {
     height: 80px;
   }
   .drinks > span {
     justify-self: center;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  #logo {
+    height: 35vh;
+  }
+  header {
+    height: 35vh;
+  }
+  header > span {
+    font-size: 50pt;
+    align-self: center;
+    font-family: "Italianno";
+  }
+  header > p {
+    font-size: 26pt;
+  }
+  nav {
+    font-size: 30pt;
+  }
+  #Banner {
+    font-size: 2rem;
+    height: 7vh;
+  }
+  .menu {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    margin: 2vh;
+  }
+  .menu article > h5 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 1vh;
+  }
+  .menu article > img {
+    height: 200px;
+    width: 200px;
+    justify-self: center;
+  }
+  .menu article > p {
+    font-size: 18pt;
+    text-align: center;
+    font-weight: bold;
+    margin: 5px;
+  }
+  .drinks > h5 {
+    font-size: 2rem;
+  }
+  .drinks > p {
+    font-size: 20pt;
+  }
+  .drinks > span > img {
+    height: 100px;
+  }
+  .beer > h5 {
+    font-size: 2rem;
+  }
+  .beer > p {
+    font-size: 20pt;
+  }
+  .beer > span > img {
+    height: 100px;
   }
 }/*# sourceMappingURL=menu.css.map */
