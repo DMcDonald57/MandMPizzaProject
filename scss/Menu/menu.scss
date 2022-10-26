@@ -55,7 +55,7 @@ nav{
         font-weight: bold;
     }
 }
-    #Banner{
+    .Banner{
         background-color: firebrick;
         border: 2px solid black;
         color: moccasin;
@@ -65,35 +65,35 @@ nav{
         margin: 1vh;
     }
 
-    .menu{
-        display:grid;
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+.menu{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    margin: 2vh;
+    
+}
+    article{
+        display: grid;
+        background-color: palegoldenrod;
+        grid-auto-rows: auto;
+        border: 2px solid black;
         margin: 2vh;
-        
+        >h5{
+            text-align: center;
+            font-size: 12pt;
+            margin: 1vh;
+        }
+        >img{
+            height: 130px;
+            width: 130px;
+            justify-self: center;
+        }
+        >p{
+            font-size: 24;
+            text-align: center;
+            font-weight: bold;
+            margin: 5px;
     }
-        article{
-            display: grid;
-            background-color: palegoldenrod;
-            grid-auto-rows: auto;
-            border: 2px solid black;
-            margin: 2vh;
-            >h5{
-                text-align: center;
-                font-size: 12pt;
-                margin: 1vh;
-            }
-            >img{
-                height: 130px;
-                width: 130px;
-                justify-self: center;
-            }
-            >p{
-                font-size: 24;
-                text-align: center;
-                font-weight: bold;
-                margin: 5px;
-        }
-        }
+    }
     .drinks{
         display: grid;
         >span img{
@@ -108,147 +108,147 @@ nav{
         >span img{
             height: 125px;
         }
-    }
-    footer{
-        background-color: black;
-        color: white;
-        font-size: 8pt;
-        padding-top: 1vh;
-    }
+}
+footer{
+    background-color: black;
+    color: white;
+    font-size: 8pt;
+    padding-top: 1vh;
+}
 
-    // This is the start of the Tablet size screen
+// This is the start of the Tablet size screen
 
-    @media only screen and (min-width: 650px){
-        #logo{
-            height: 25vh;
-            }
-        
-        header{
-            grid-template-columns: 1fr 2fr 2fr;
-            height: 25vh;
-            >span{
-                display: initial;
-                text-align: center;
-                font-size: 32pt;
-                padding-top: 2vh;
-                font-family: "Italianno";
-                font-weight: bold;
-            }
-            #plainphone{
-                display: initial;
-            }
-            #clickphone{
-                display: none;
-            }
-            >p{
-                font-size: 20pt;
-            }
+@media only screen and (min-width: 650px){
+    #logo{
+        height: 25vh;
         }
-        .menu{
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            margin: 2vh;
-            article{
-                > h5{
-                text-align: center;
-                font-size: 1.75rem;
-                margin: 1vh;
-                }
-            >img{
-                height: 175px;
-                width: 175px;
-                justify-self: center;
-            }
-            >p{
-                font-size: 14pt;
-                text-align: center;
-                font-weight: bold;
-                margin: 5px;
-            }
-        }
-        }
-        #Banner{
-            font-size: 2rem;
-            height: 7vh;
-        }
-
-        .drinks{
-            >span img{
-                height: 80px;
-            }
-            >span{
-                justify-self: center;
-            }
-        }
-    }
-        // This is the start of the Desktop size screen
-
-        @media only screen and (min-width: 1000px){
-            #logo{
-                height: 35vh;
-            }
-
-            header{
-                height: 35vh;
-                >span{
-                    font-size: 50pt;
-                    align-self: center;
-                    font-family: "Italianno";
-                }
-                >p{
-                    font-size: 26pt;
-                }
-            }
-            nav{
-                font-size: 30pt;
-            }
-            #Banner{
-                font-size: 2rem;
-                height: 7vh;
-            }
-            .menu{
-                grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-                margin: 2vh;
-            }
-            .menu article{
-                >h5{
-                    text-align: center;
-                    font-size: 2rem;
-                    margin: 1vh;
-                }
-                >img{
-                    height: 200px;
-                    width: 200px;
-                    justify-self: center;
-                }
-                >p{
-                    font-size: 18pt;
-                    text-align: center;
-                    font-weight: bold;
-                    margin: 5px;
-                }
-            }
-            .drinks{
-                >h5{
-                    font-size: 2rem;
-                }
-                >p{
-                    font-size: 20pt;
-                }
-                >span > img{
-                    height: 100px;
-                    }
-                }
-                .beer{
-                    >h5{
-                        font-size: 2rem;
-                    }
-                    >p{
-                        font-size: 20pt;
-                    }
-                    >span > img{
-                        height: 100px;
-                        }
-                    }
     
+    header{
+        grid-template-columns: 1fr 2fr 2fr;
+        height: 25vh;
+        >span{
+            display: initial;
+            text-align: center;
+            font-size: 32pt;
+            padding-top: 2vh;
+            font-family: "Italianno";
+            font-weight: bold;
+        }
+        #plainphone{
+            display: initial;
+        }
+        #clickphone{
+            display: none;
+        }
+        >p{
+            font-size: 20pt;
+        }
+    }
+    .menu{
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        margin: 2vh;
+        article{
+            > h5{
+            text-align: center;
+            font-size: 1.75rem;
+            margin: 1vh;
             }
+        >img{
+            height: 175px;
+            width: 175px;
+            justify-self: center;
+        }
+        >p{
+            font-size: 14pt;
+            text-align: center;
+            font-weight: bold;
+            margin: 5px;
+        }
+    }
+    }
+    #Banner{
+        font-size: 2rem;
+        height: 7vh;
+    }
+
+    .drinks{
+        >span img{
+            height: 80px;
+        }
+        >span{
+            justify-self: center;
+        }
+    }
+}
+    // This is the start of the Desktop size screen
+
+@media only screen and (min-width: 1000px){
+    #logo{
+        height: 35vh;
+    }
+
+    header{
+        height: 35vh;
+        >span{
+            font-size: 50pt;
+            align-self: center;
+            font-family: "Italianno";
+        }
+        >p{
+            font-size: 26pt;
+        }
+    }
+    nav{
+        font-size: 30pt;
+    }
+    #Banner{
+        font-size: 2rem;
+        height: 7vh;
+    }
+    .menu{
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        margin: 2vh;
+    }
+    .menu article{
+        >h5{
+            text-align: center;
+            font-size: 2rem;
+            margin: 1vh;
+        }
+        >img{
+            height: 200px;
+            width: 200px;
+            justify-self: center;
+        }
+        >p{
+            font-size: 18pt;
+            text-align: center;
+            font-weight: bold;
+            margin: 5px;
+        }
+    }
+    .drinks{
+        >h5{
+            font-size: 2rem;
+        }
+        >p{
+            font-size: 20pt;
+        }
+        >span > img{
+            height: 100px;
+            }
+        }
+    .beer{
+        >h5{
+            font-size: 2rem;
+        }
+        >p{
+            font-size: 20pt;
+        }
+        >span > img{
+            height: 100px;
+            }
+        }
+
+    }
 

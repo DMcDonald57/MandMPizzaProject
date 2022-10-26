@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#logo {
+  height: 15vh;
+}
+
+html {
+  background-color: moccasin;
+}
+
+header {
+  display: grid;
+  background-color: orangered;
+  grid-template-columns: 1fr 3fr;
+  height: 15vh;
+}
+header > p {
+  display: grid;
+  text-align: center;
+  font-size: 16pt;
+  padding-top: 2vh;
+  font-family: cursive;
+}
+header > span {
+  display: none;
+  font-family: "Italianno";
+}
+header #plainphone {
+  display: none;
+  color: black;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 19pt;
+  padding: 1vh;
+}
+nav > #home {
+  background-color: orangered;
+  border: 2px solid black;
+  margin-right: 1vw;
+  text-align: center;
+  padding: 2vh;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav > #menu {
+  background-color: orangered;
+  border: 2px solid black;
+  margin-left: 1vw;
+  text-align: center;
+  padding: 2vh;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.maps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.maps > h3 {
+  text-align: center;
+  padding-top: 1vh;
+}
+
+.maps iframe {
+  padding-top: 7vh;
+  height: 45%;
+  width: 45%;
+  position: absolute;
+}
+
+#sta {
+  padding-left: 52%;
+}
+
+#edm {
+  padding-left: 2vh;
+  padding-right: 2vh;
+}/*# sourceMappingURL=contact.css.map */

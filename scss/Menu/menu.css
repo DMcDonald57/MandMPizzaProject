@@ -58,7 +58,7 @@ nav > #home {
   font-weight: bold;
 }
 
-#Banner {
+.Banner {
   background-color: firebrick;
   border: 2px solid black;
   color: moccasin;
