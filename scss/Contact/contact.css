@@ -37,7 +37,8 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-size: 19pt;
-  padding: 1vh;
+  padding: 2vh;
+  padding-bottom: 3vh;
 }
 nav > #home {
   background-color: orangered;
@@ -58,41 +59,25 @@ nav > #menu {
   font-weight: bold;
 }
 
-.maps {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  padding-bottom: 56.25%;
-  position: relative;
-  height: 0;
-}
 .maps > h3 {
   text-align: center;
-  padding-top: 1vh;
-}
-
-.maps iframe {
-  padding-top: 7vh;
-  overflow: hidden;
-  top: 0;
-  left: 0;
-  height: 45%;
-  width: 45%;
-  position: absolute;
+  font-size: 18pt;
+  text-decoration: underline;
 }
 
 #sta {
-  padding-left: 52%;
+  padding: 5vh;
 }
 
 #edm {
-  padding-left: 2vh;
-  padding-right: 2vh;
+  padding: 5vh;
 }
 
 .hours {
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-size: 14pt;
+  height: 150px;
 }
 .hours > img {
   height: 50%;
@@ -105,4 +90,25 @@ nav > #menu {
   height: -moz-fit-content;
   height: fit-content;
   width: 100%;
+}
+
+.Banner {
+  background-color: firebrick;
+  border: 2px solid black;
+  color: moccasin;
+  font-size: 16pt;
+  height: 5vh;
+  text-align: center;
+  margin: 1vh;
+}
+
+article {
+  text-align: left;
+  padding: 2vh;
+}
+article > h4 {
+  text-align: left;
+}
+article > p {
+  padding-top: 1vh;
 }/*# sourceMappingURL=contact.css.map */
