@@ -3,12 +3,12 @@
   padding: 0;
 }
 
-#logo {
-  height: 15vh;
-}
-
 html {
   background-color: moccasin;
+}
+
+#logo {
+  height: 15vh;
 }
 
 header {
@@ -60,7 +60,7 @@ nav > #menu {
 
 .maps {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   padding-bottom: 56.25%;
   position: relative;
   height: 0;
@@ -72,6 +72,9 @@ nav > #menu {
 
 .maps iframe {
   padding-top: 7vh;
+  overflow: hidden;
+  top: 0;
+  left: 0;
   height: 45%;
   width: 45%;
   position: absolute;
@@ -84,4 +87,22 @@ nav > #menu {
 #edm {
   padding-left: 2vh;
   padding-right: 2vh;
+}
+
+.hours {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 14pt;
+}
+.hours > img {
+  height: 50%;
+  justify-self: right;
+  padding-right: 2vh;
+}
+.hours > span {
+  padding-left: 2vh;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
 }/*# sourceMappingURL=contact.css.map */

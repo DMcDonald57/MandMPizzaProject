@@ -1,14 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+@use "../pageinfo";
+
 #logo{
     height: 15vh;
     }
 
-html{
-    background-color: moccasin;
-}
 header{
     display: grid;
     background-color: orangered;

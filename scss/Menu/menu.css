@@ -3,12 +3,12 @@
   padding: 0;
 }
 
-#logo {
-  height: 15vh;
-}
-
 html {
   background-color: moccasin;
+}
+
+#logo {
+  height: 15vh;
 }
 
 header {
