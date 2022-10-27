@@ -1,30 +1,6 @@
 @use "../pageinfo";
-
-#logo{
-    height: 15vh;
-}
-
-header{
-    display: grid;
-    background-color: orangered;
-    grid-template-columns: 1fr 3fr;
-    height: 15vh;
-    >p{
-        display: grid;
-        text-align: center;
-        font-size: 16pt;
-        padding-top: 2vh;
-        font-family: cursive;
-    }
-    >span{
-        display: none;
-        font-family: "Italianno";
-    }
-    #plainphone{
-        display: none;
-        color: black;
-    }
-}
+@use "../headerinfo";
+@use "../footer";
 
 nav{
     display: grid;
@@ -73,70 +49,26 @@ article{
         display: none;
         padding-left: 2vw;
     }
-    >#brick2{
+        >#brick2{
         display:none;
     }
-}
-footer{
-    background-color: black;
-    color: white;
-    font-size: 8pt;
-    padding-top: 1vh;
 }
 
 // This is the start of Tablet format
 
 @media only screen and (min-width: 650px){
-    #logo{
-        height: 25vh;
-        }
-    header{
-        grid-template-columns: 1fr 2fr 2fr;
-        height: 25vh;
-        >span{
-            display: initial;
-            text-align: center;
-            font-size: 32pt;
-            padding-top: 2vh;
-            font-weight: bold;
-            font-family: "Italianno";
-        }
-        #plainphone{
-            display: initial;
-        }
-        #clickphone{
-            display: none;
-        }
-            >p{
-                font-size: 20pt;
-            }
-        }
     .video{
-                grid-template-columns: 1fr 1fr 1fr;
-            #brick{
-                display: initial;
-                height: 40vh;
-            }
-            }  
+        grid-template-columns: 1fr 1fr 1fr;
+        #brick{
+            display: initial;
+            height: 40vh;
+        }
+    }  
 } 
 
 // This is the start of desktop format
 
 @media only screen and (min-width: 1000px){
-    #logo{
-        height: 35vh;
-    }
-    header{
-        height: 35vh;
-        >span{
-            font-size: 50pt;
-            font-weight: bold;
-            font-family: "Italianno";
-        }
-        >p{
-            font-size: 30pt;
-        }
-    }
     nav{
         font-size: 30pt;
     }

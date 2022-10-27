@@ -33,6 +33,55 @@ header #plainphone {
   color: black;
 }
 
+@media only screen and (min-width: 650px) {
+  #logo {
+    height: 25vh;
+  }
+  header {
+    grid-template-columns: 1fr 2fr 2fr;
+    height: 25vh;
+  }
+  header > span {
+    display: initial;
+    text-align: center;
+    font-size: 32pt;
+    padding-top: 2vh;
+    font-weight: bold;
+    font-family: "Italianno";
+  }
+  header #plainphone {
+    display: initial;
+  }
+  header #clickphone {
+    display: none;
+  }
+  header > p {
+    font-size: 20pt;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  #logo {
+    height: 35vh;
+  }
+  header {
+    height: 35vh;
+  }
+  header > span {
+    font-size: 50pt;
+    font-weight: bold;
+    font-family: "Italianno";
+  }
+  header > p {
+    font-size: 30pt;
+  }
+}
+footer {
+  background-color: black;
+  color: white;
+  font-size: 8pt;
+  padding-top: 1vh;
+}
+
 nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -86,38 +135,7 @@ article > p {
   display: none;
 }
 
-footer {
-  background-color: black;
-  color: white;
-  font-size: 8pt;
-  padding-top: 1vh;
-}
-
 @media only screen and (min-width: 650px) {
-  #logo {
-    height: 25vh;
-  }
-  header {
-    grid-template-columns: 1fr 2fr 2fr;
-    height: 25vh;
-  }
-  header > span {
-    display: initial;
-    text-align: center;
-    font-size: 32pt;
-    padding-top: 2vh;
-    font-weight: bold;
-    font-family: "Italianno";
-  }
-  header #plainphone {
-    display: initial;
-  }
-  header #clickphone {
-    display: none;
-  }
-  header > p {
-    font-size: 20pt;
-  }
   .video {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -127,20 +145,6 @@ footer {
   }
 }
 @media only screen and (min-width: 1000px) {
-  #logo {
-    height: 35vh;
-  }
-  header {
-    height: 35vh;
-  }
-  header > span {
-    font-size: 50pt;
-    font-weight: bold;
-    font-family: "Italianno";
-  }
-  header > p {
-    font-size: 30pt;
-  }
   nav {
     font-size: 30pt;
   }
