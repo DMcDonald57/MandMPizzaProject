@@ -84,6 +84,12 @@ nav > #menu {
   justify-self: right;
   padding-right: 2vh;
 }
+.hours #dining {
+  display: none;
+}
+.hours #family {
+  display: none;
+}
 .hours > span {
   padding-left: 2vh;
   height: -webkit-fit-content;
@@ -119,4 +125,74 @@ footer {
   color: white;
   font-size: 8pt;
   padding-top: 1vh;
+}
+
+@media only screen and (min-width: 650px) {
+  #logo {
+    height: 25vh;
+  }
+  header {
+    grid-template-columns: 1fr 2fr 2fr;
+    height: 25vh;
+  }
+  header > span {
+    display: initial;
+    text-align: center;
+    font-size: 32pt;
+    padding-top: 2vh;
+    font-family: "Italianno";
+    font-weight: bold;
+  }
+  header #plainphone {
+    display: initial;
+  }
+  header #clickphone {
+    display: none;
+  }
+  header > p {
+    font-size: 20pt;
+  }
+  .maps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    padding-bottom: 56.25%;
+    position: relative;
+    height: auto;
+  }
+  .maps > h3 {
+    text-align: center;
+    padding-top: 1vh;
+  }
+  .maps iframe {
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    height: 70%;
+    width: 40%;
+    position: absolute;
+  }
+  #sta {
+    padding-left: 55%;
+    padding-top: 10%;
+  }
+  #edm {
+    padding-top: 10%;
+  }
+  .hours {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .hours > span {
+    width: 35vw;
+    padding-top: 5vh;
+  }
+  .hours > img {
+    padding-right: 2vh;
+    justify-self: right;
+  }
+  .hours #dining {
+    display: initial;
+  }
+  .hours #family {
+    display: initial;
+  }
 }/*# sourceMappingURL=contact.css.map */
