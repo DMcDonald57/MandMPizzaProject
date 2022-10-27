@@ -2,7 +2,7 @@
 
 #logo{
     height: 15vh;
-    }
+}
 
 header{
     display: grid;
@@ -25,7 +25,6 @@ header{
         color: black;
     }
 }
-
 nav{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -50,59 +49,57 @@ nav{
         font-weight: bold;
     }
 }
-    .Banner{
-        background-color: firebrick;
-        border: 2px solid black;
-        color: moccasin;
-        font-size: 16pt;
-        height: 5vh;
-        text-align: center;
-        margin: 1vh;
-    }
-
+.Banner{
+    background-color: firebrick;
+    border: 2px solid black;
+    color: moccasin;
+    font-size: 16pt;
+    height: 5vh;
+    text-align: center;
+    margin: 1vh;
+}
 .menu{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     margin: 2vh;
-    
 }
-    article{
-        display: grid;
-        background-color: palegoldenrod;
-        grid-auto-rows: auto;
-        border: 2px solid black;
-        margin: 2vh;
-        >h5{
-            text-align: center;
-            font-size: 12pt;
-            margin: 1vh;
-        }
-        >img{
-            height: 130px;
-            width: 130px;
-            justify-self: center;
-        }
-        >p{
-            font-size: 24;
-            text-align: center;
-            font-weight: bold;
-            margin: 5px;
+article{
+    display: grid;
+    background-color: palegoldenrod;
+    grid-auto-rows: auto;
+    border: 2px solid black;
+    margin: 2vh;
+    >h5{
+        text-align: center;
+        font-size: 12pt;
+        margin: 1vh;
     }
+    >img{
+        height: 130px;
+        width: 130px;
+        justify-self: center;
     }
-    .drinks{
-        display: grid;
-        >span img{
-            height: 70px;
-        }
+    >p{
+        font-size: 24;
+        text-align: center;
+        font-weight: bold;
+        margin: 5px;
     }
-    .beer{
-        display: grid;
-        >span{
-            justify-self: center;
-        }
-        >span img{
-            height: 125px;
-        }
+}
+.drinks{
+    display: grid;
+    >span img{
+        height: 70px;
+    }
+}
+.beer{
+    display: grid;
+    >span{
+        justify-self: center;
+    }
+    >span img{
+        height: 125px;
+    }
 }
 footer{
     background-color: black;
@@ -116,7 +113,7 @@ footer{
 @media only screen and (min-width: 650px){
     #logo{
         height: 25vh;
-        }
+    }
     
     header{
         grid-template-columns: 1fr 2fr 2fr;
@@ -159,13 +156,12 @@ footer{
             font-weight: bold;
             margin: 5px;
         }
-    }
+        }
     }
     #Banner{
         font-size: 2rem;
         height: 7vh;
     }
-
     .drinks{
         >span img{
             height: 80px;
@@ -175,13 +171,13 @@ footer{
         }
     }
 }
+
     // This is the start of the Desktop size screen
 
 @media only screen and (min-width: 1000px){
     #logo{
         height: 35vh;
     }
-
     header{
         height: 35vh;
         >span{
@@ -190,7 +186,7 @@ footer{
             font-family: "Italianno";
         }
         >p{
-            font-size: 26pt;
+            font-size: 30pt;
         }
     }
     nav{
@@ -231,8 +227,8 @@ footer{
         }
         >span > img{
             height: 100px;
-            }
         }
+    }
     .beer{
         >h5{
             font-size: 2rem;
@@ -242,8 +238,7 @@ footer{
         }
         >span > img{
             height: 100px;
-            }
         }
-
     }
+}
 

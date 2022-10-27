@@ -2,164 +2,161 @@
 
 #logo{
     height: 15vh;
-    }
+}
 
 header{
+    display: grid;
+    background-color: orangered;
+    grid-template-columns: 1fr 3fr;
+    height: 15vh;
+    >p{
         display: grid;
+        text-align: center;
+        font-size: 16pt;
+        padding-top: 2vh;
+        font-family: cursive;
+    }
+    >span{
+        display: none;
+        font-family: "Italianno";
+    }
+    #plainphone{
+        display: none;
+        color: black;
+    }
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 19pt;
+    padding: 1vh;
+    >#find{
         background-color: orangered;
-        grid-template-columns: 1fr 3fr;
-        height: 15vh;
-        >p{
-            display: grid;
-            text-align: center;
-            font-size: 16pt;
-            padding-top: 2vh;
-            font-family: cursive;
+        border: 2px solid black;
+        margin-right: 1vw;
+        text-align: center;
+        padding: 2vh;
+        text-decoration: none;
+        font-weight: bold;
+    }   
+    >#menu{
+        background-color: orangered;
+        border: 2px solid black;
+        margin-left: 1vw;
+        text-align: center;
+        padding: 2vh;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+#oven{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+article{
+    >h1{
+        text-align: center;
+        padding-top: 2vh;
+    }
+    >p{
+        padding: 1vh;
+    }
+}
+.video{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2vh;
+    justify-items: center;
+    >#brick{
+        display: none;
+        padding-left: 2vw;
+    }
+    >#brick2{
+        display:none;
+    }
+}
+footer{
+    background-color: black;
+    color: white;
+    font-size: 8pt;
+    padding-top: 1vh;
+}
+
+// This is the start of Tablet format
+
+@media only screen and (min-width: 650px){
+    #logo{
+        height: 25vh;
         }
+    header{
+        grid-template-columns: 1fr 2fr 2fr;
+        height: 25vh;
         >span{
-            display: none;
+            display: initial;
+            text-align: center;
+            font-size: 32pt;
+            padding-top: 2vh;
             font-weight: bold;
-            align-self: center;
             font-family: "Italianno";
         }
         #plainphone{
+            display: initial;
+        }
+        #clickphone{
             display: none;
-            color: black;
         }
-    }
-
-    nav{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        font-size: 19pt;
-        padding: 1vh;
-
-        >#find{
-            background-color: orangered;
-            border: 2px solid black;
-            margin-right: 1vw;
-            text-align: center;
-            padding: 2vh;
-            text-decoration: none;
-            font-weight: bold;
-        }   
-        >#menu{
-            background-color: orangered;
-            border: 2px solid black;
-            margin-left: 1vw;
-            text-align: center;
-            padding: 2vh;
-            text-decoration: none;
-            font-weight: bold;
-        }
-    }
-    #oven{
-        display: grid;
-        grid-template-columns: 1fr;
-        width: 100%;
-    }
-    article{
-        >h1{
-            text-align: center;
-            padding-top: 2vh;
-        }
-        >p{
-            padding: 1vh;
-        }
-    }
-    .video{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding: 2vh;
-        justify-items: center;
-        >#brick{
-            display: none;
-            padding-left: 2vw;
-            }
-        >#brick2{
-            display:none;
-        }
-    }
-
-    footer{
-        background-color: black;
-        color: white;
-        font-size: 8pt;
-        padding-top: 1vh;
-    }
-    // This is the start of Tablet format
-
-    @media only screen and (min-width: 650px){
-        #logo{
-            height: 25vh;
-            }
-        
-        header{
-            grid-template-columns: 1fr 2fr 2fr;
-            height: 25vh;
-            >span{
-                display: initial;
-                text-align: center;
-                font-size: 32pt;
-                padding-top: 2vh;
-                font-family: "Italianno";
-            }
-            #plainphone{
-                display: initial;
-            }
-            #clickphone{
-                display: none;
-            }
             >p{
                 font-size: 20pt;
             }
         }
-        .video{
-            grid-template-columns: 1fr 1fr 1fr;
-        #brick{
-            display: initial;
-            height: 40vh;
-        }
-        }  
-    } 
-
-    // This is the start of desktop format
-
-    @media only screen and (min-width: 1000px){
-        #logo{
-            height: 30vh;
-        }
-        header{
-            height: 30vh;
-            >span{
-                font-size: 50pt;
-                font-family: "Italianno";
-            }
-            >p{
-                font-size: 25pt;
-            }
-        }
-        nav{
-            font-size: 30pt;
-        }
-        article{
-            >h1{
-                font-size: 24pt;
-            }
-            >p{
-                font-size: 16pt;
-            }
-        }
-        .video{
-            justify-items: center;
-            
+    .video{
+                grid-template-columns: 1fr 1fr 1fr;
             #brick{
-                padding-left: 0;
-            }
-            #brick2{
                 display: initial;
                 height: 40vh;
             }
             }  
-    
+} 
+
+// This is the start of desktop format
+
+@media only screen and (min-width: 1000px){
+    #logo{
+        height: 35vh;
     }
+    header{
+        height: 35vh;
+        >span{
+            font-size: 50pt;
+            font-weight: bold;
+            font-family: "Italianno";
+        }
+        >p{
+            font-size: 30pt;
+        }
+    }
+    nav{
+        font-size: 30pt;
+    }
+    article{
+        >h1{
+            font-size: 24pt;
+        }
+        >p{
+            font-size: 16pt;
+        }
+    }
+    .video{
+        justify-items: center;
+        
+        #brick{
+            padding-left: 0;
+        }
+        #brick2{
+            display: initial;
+            height: 40vh;
+        }
+    }  
+}

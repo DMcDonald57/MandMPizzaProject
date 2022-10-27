@@ -26,8 +26,6 @@ header > p {
 }
 header > span {
   display: none;
-  font-weight: bold;
-  align-self: center;
   font-family: "Italianno";
 }
 header #plainphone {
@@ -108,6 +106,7 @@ footer {
     text-align: center;
     font-size: 32pt;
     padding-top: 2vh;
+    font-weight: bold;
     font-family: "Italianno";
   }
   header #plainphone {
@@ -129,17 +128,18 @@ footer {
 }
 @media only screen and (min-width: 1000px) {
   #logo {
-    height: 30vh;
+    height: 35vh;
   }
   header {
-    height: 30vh;
+    height: 35vh;
   }
   header > span {
     font-size: 50pt;
+    font-weight: bold;
     font-family: "Italianno";
   }
   header > p {
-    font-size: 25pt;
+    font-size: 30pt;
   }
   nav {
     font-size: 30pt;
