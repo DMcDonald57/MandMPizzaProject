@@ -148,7 +148,6 @@ header{
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         padding-bottom: 56.25%;
         position: relative;
-        height: auto;
         >h3{
             text-align: center;
             padding-top: 1vh;
@@ -179,7 +178,7 @@ header{
         }
 
         >img{
-            padding-right: 2vh;
+            padding-right: 2vw;
             justify-self: right;
         }
 
@@ -190,8 +189,59 @@ header{
             display: initial;
         }
     }
+    article{
+        >p{
+            font-size: 15pt;
+        }
+        >h4{
+            font-size: 15pt;
+        }
+    }
 
 }
+
+    // This is the start of the Desktop size screen
+
+    @media only screen and (min-width: 1000px){
+        #logo{
+            height: 35vh;
+        }
+    
+        header{
+            height: 35vh;
+            >span{
+                font-size: 50pt;
+                align-self: center;
+                font-family: "Italianno";
+            }
+            >p{
+                font-size: 26pt;
+            }
+        }
+        nav{
+            font-size: 30pt;
+        }
+        .maps{
+            >h3{
+                font-size: 24pt;
+            }
+        }
+        .hours{
+            
+            >img{
+                height: 150px;
+                justify-self: center;
+            }
+            >span{
+                font-size: 18pt;
+            }
+        }
+        .Banner{
+            font-size: 24pt;
+            height: 10vh;
+            padding-top: 2vh;
+        }
+    }    
 
 
 

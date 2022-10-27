@@ -157,7 +157,6 @@ footer {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     padding-bottom: 56.25%;
     position: relative;
-    height: auto;
   }
   .maps > h3 {
     text-align: center;
@@ -186,7 +185,7 @@ footer {
     padding-top: 5vh;
   }
   .hours > img {
-    padding-right: 2vh;
+    padding-right: 2vw;
     justify-self: right;
   }
   .hours #dining {
@@ -194,5 +193,45 @@ footer {
   }
   .hours #family {
     display: initial;
+  }
+  article > p {
+    font-size: 15pt;
+  }
+  article > h4 {
+    font-size: 15pt;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  #logo {
+    height: 35vh;
+  }
+  header {
+    height: 35vh;
+  }
+  header > span {
+    font-size: 50pt;
+    align-self: center;
+    font-family: "Italianno";
+  }
+  header > p {
+    font-size: 26pt;
+  }
+  nav {
+    font-size: 30pt;
+  }
+  .maps > h3 {
+    font-size: 24pt;
+  }
+  .hours > img {
+    height: 150px;
+    justify-self: center;
+  }
+  .hours > span {
+    font-size: 18pt;
+  }
+  .Banner {
+    font-size: 24pt;
+    height: 10vh;
+    padding-top: 2vh;
   }
 }/*# sourceMappingURL=contact.css.map */
