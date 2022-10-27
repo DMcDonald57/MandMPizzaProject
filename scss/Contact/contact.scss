@@ -1,30 +1,6 @@
 @use "../pageinfo";
-
-#logo{
-    height: 15vh;
-    }
-
-header{
-    display: grid;
-    background-color: orangered;
-    grid-template-columns: 1fr 3fr;
-    height: 15vh;
-    >p{
-        display: grid;
-        text-align: center;
-        font-size: 16pt;
-        padding-top: 2vh;
-        font-family: cursive;
-    }
-    >span{
-        display: none;
-        font-family: "Italianno";
-    }
-    #plainphone{
-        display: none;
-        color: black;
-    }
-}
+@use "../headerinfo";
+@use "../footer";
 
 nav{
     display: grid;
@@ -104,41 +80,11 @@ article{
         padding-bottom: 2vh;
     }
 }
-footer{
-    background-color: black;
-    color: white;
-    font-size: 8pt;
-    padding-top: 1vh;
-}
 
 // This is the start of the Tablet size screen
 
 @media only screen and (min-width: 650px){
 
-    #logo{
-        height: 25vh;
-        }
-    header{
-        grid-template-columns: 1fr 2fr 2fr;
-        height: 25vh;
-        >span{
-            display: initial;
-            text-align: center;
-            font-size: 32pt;
-            padding-top: 2vh;
-            font-family: "Italianno";
-            font-weight: bold;
-        }
-        #plainphone{
-            display: initial;
-        }
-        #clickphone{
-            display: none;
-        }
-        >p{
-            font-size: 20pt;
-        }
-    }
     .maps{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -194,20 +140,6 @@ footer{
     // This is the start of the Desktop size screen
 
 @media only screen and (min-width: 1000px){
-    #logo{
-        height: 35vh;
-    }
-    header{
-        height: 35vh;
-        >span{
-            font-size: 50pt;
-            align-self: center;
-            font-family: "Italianno";
-        }
-        >p{
-            font-size: 30pt;
-        }
-    }
     nav{
         font-size: 30pt;
     }
@@ -231,6 +163,3 @@ footer{
         padding-top: 2vh;
     }
 }    
-
-
-
