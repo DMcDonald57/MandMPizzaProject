@@ -111,4 +111,12 @@ article > h4 {
 }
 article > p {
   padding-top: 1vh;
+  padding-bottom: 2vh;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-size: 8pt;
+  padding-top: 1vh;
 }/*# sourceMappingURL=contact.css.map */

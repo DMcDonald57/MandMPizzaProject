@@ -1,4 +1,4 @@
-@use "pageinfo";
+@use "../pageinfo";
 
 #logo{
     height: 15vh;
@@ -132,12 +132,11 @@ header{
         header{
             height: 30vh;
             >span{
-                font-size: 44pt;
-                align-self: center;
+                font-size: 50pt;
                 font-family: "Italianno";
             }
             >p{
-                font-size: 26pt;
+                font-size: 25pt;
             }
         }
         nav{

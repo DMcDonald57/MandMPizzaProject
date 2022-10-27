@@ -135,12 +135,11 @@ footer {
     height: 30vh;
   }
   header > span {
-    font-size: 44pt;
-    align-self: center;
+    font-size: 50pt;
     font-family: "Italianno";
   }
   header > p {
-    font-size: 26pt;
+    font-size: 25pt;
   }
   nav {
     font-size: 30pt;
