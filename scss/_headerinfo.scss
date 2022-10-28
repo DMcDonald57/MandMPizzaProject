@@ -10,9 +10,11 @@ header{
     >p{
         display: grid;
         text-align: center;
-        font-size: 16pt;
-        padding-top: 2vh;
-        font-family: cursive;
+        font-size: 22pt;
+        font-weight: bold;
+        padding: 2vh;
+        text-shadow: 0.5px 0.5px whitesmoke;
+        font-family: "Italianno";
     }
     >span{
         display: none;
@@ -36,6 +38,7 @@ header{
             font-size: 32pt;
             padding-top: 2vh;
             font-weight: bold;
+            text-shadow: 0.5px 0.5px whitesmoke;
             font-family: "Italianno";
         }
         #plainphone{
@@ -45,23 +48,23 @@ header{
             display: none;
         }
             >p{
-                font-size: 20pt;
-            }
+                font-size: 24pt;
         }
     }
+}
 @media only screen and (min-width: 1000px){
-            #logo{
-                height: 35vh;
-            }
-            header{
-                height: 35vh;
-                >span{
-                    font-size: 50pt;
-                    font-weight: bold;
-                    font-family: "Italianno";
-                }
-                >p{
-                    font-size: 30pt;
-                }
-            }
+    #logo{
+        height: 35vh;
+    }
+    header{
+        height: 35vh;
+        >span{
+            font-size: 50pt;
+            font-weight: bold;
+            font-family: "Italianno";
         }
+        >p{
+            font-size: 30pt;
+        }
+        }
+}

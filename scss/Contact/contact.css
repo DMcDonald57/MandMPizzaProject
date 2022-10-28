@@ -20,9 +20,11 @@ header {
 header > p {
   display: grid;
   text-align: center;
-  font-size: 16pt;
-  padding-top: 2vh;
-  font-family: cursive;
+  font-size: 22pt;
+  font-weight: bold;
+  padding: 2vh;
+  text-shadow: 0.5px 0.5px whitesmoke;
+  font-family: "Italianno";
 }
 header > span {
   display: none;
@@ -47,6 +49,7 @@ header #plainphone {
     font-size: 32pt;
     padding-top: 2vh;
     font-weight: bold;
+    text-shadow: 0.5px 0.5px whitesmoke;
     font-family: "Italianno";
   }
   header #plainphone {
@@ -56,7 +59,7 @@ header #plainphone {
     display: none;
   }
   header > p {
-    font-size: 20pt;
+    font-size: 24pt;
   }
 }
 @media only screen and (min-width: 1000px) {
@@ -92,6 +95,7 @@ nav {
 nav > #home {
   background-color: orangered;
   border: 2px solid black;
+  border-radius: 20px;
   margin-right: 1vw;
   text-align: center;
   padding: 2vh;
@@ -101,6 +105,7 @@ nav > #home {
 nav > #menu {
   background-color: orangered;
   border: 2px solid black;
+  border-radius: 20px;
   margin-left: 1vw;
   text-align: center;
   padding: 2vh;
@@ -130,8 +135,9 @@ nav > #menu {
 }
 .hours > img {
   height: 50%;
-  justify-self: right;
-  padding-right: 2vh;
+  justify-self: center;
+  padding-right: 2vw;
+  border-radius: 20px;
 }
 .hours #dining {
   display: none;
@@ -203,8 +209,9 @@ article > p {
     padding-top: 5vh;
   }
   .hours > img {
-    padding-right: 2vw;
+    padding-right: 1vw;
     justify-self: right;
+    border-radius: 25px;
   }
   .hours #dining {
     display: initial;

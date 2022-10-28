@@ -20,9 +20,11 @@ header {
 header > p {
   display: grid;
   text-align: center;
-  font-size: 16pt;
-  padding-top: 2vh;
-  font-family: cursive;
+  font-size: 22pt;
+  font-weight: bold;
+  padding: 2vh;
+  text-shadow: 0.5px 0.5px whitesmoke;
+  font-family: "Italianno";
 }
 header > span {
   display: none;
@@ -47,6 +49,7 @@ header #plainphone {
     font-size: 32pt;
     padding-top: 2vh;
     font-weight: bold;
+    text-shadow: 0.5px 0.5px whitesmoke;
     font-family: "Italianno";
   }
   header #plainphone {
@@ -56,7 +59,7 @@ header #plainphone {
     display: none;
   }
   header > p {
-    font-size: 20pt;
+    font-size: 24pt;
   }
 }
 @media only screen and (min-width: 1000px) {
@@ -91,6 +94,7 @@ nav {
 nav > #find {
   background-color: orangered;
   border: 2px solid black;
+  border-radius: 20px;
   margin-right: 1vw;
   text-align: center;
   padding: 2vh;
@@ -100,6 +104,7 @@ nav > #find {
 nav > #menu {
   background-color: orangered;
   border: 2px solid black;
+  border-radius: 20px;
   margin-left: 1vw;
   text-align: center;
   padding: 2vh;
@@ -129,7 +134,7 @@ article > p {
 }
 .video > #brick {
   display: none;
-  padding-left: 2vw;
+  padding-left: 3vw;
 }
 .video > #brick2 {
   display: none;
@@ -159,9 +164,11 @@ article > p {
   }
   .video #brick {
     padding-left: 0;
+    border-radius: 20px;
   }
   .video #brick2 {
     display: initial;
     height: 40vh;
+    border-radius: 20px;
   }
 }/*# sourceMappingURL=welcomePage.css.map */

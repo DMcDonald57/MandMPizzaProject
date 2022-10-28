@@ -11,6 +11,7 @@ nav{
     >#home{
         background-color: orangered;
         border: 2px solid black;
+        border-radius: 20px;
         margin-right: 1vw;
         text-align: center;
         padding: 2vh;
@@ -20,6 +21,7 @@ nav{
     >#menu{
         background-color: orangered;
         border: 2px solid black;
+        border-radius: 20px;
         margin-left: 1vw;
         text-align: center;
         padding: 2vh;
@@ -45,8 +47,9 @@ nav{
     height: 150px;
     >img{
         height: 50%;
-        justify-self: right;
-        padding-right: 2vh;
+        justify-self: center;
+        padding-right: 2vw;
+        border-radius: 20px;
     }
     #dining{
         display: none;
@@ -117,8 +120,9 @@ article{
             padding-top: 5vh;
         }
         >img{
-            padding-right: 2vw;
+            padding-right: 1vw;
             justify-self: right;
+            border-radius: 25px;
         }
         #dining{
             display: initial;
@@ -152,6 +156,7 @@ article{
         >img{
             height: 150px;
             justify-self: center;
+
         }
         >span{
             font-size: 18pt;

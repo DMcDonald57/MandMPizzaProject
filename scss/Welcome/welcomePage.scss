@@ -10,6 +10,7 @@ nav{
     >#find{
         background-color: orangered;
         border: 2px solid black;
+        border-radius: 20px;
         margin-right: 1vw;
         text-align: center;
         padding: 2vh;
@@ -19,6 +20,7 @@ nav{
     >#menu{
         background-color: orangered;
         border: 2px solid black;
+        border-radius: 20px;
         margin-left: 1vw;
         text-align: center;
         padding: 2vh;
@@ -47,7 +49,7 @@ article{
     justify-items: center;
     >#brick{
         display: none;
-        padding-left: 2vw;
+        padding-left: 3vw;
     }
         >#brick2{
         display:none;
@@ -85,10 +87,12 @@ article{
         
         #brick{
             padding-left: 0;
+            border-radius: 20px;
         }
         #brick2{
             display: initial;
             height: 40vh;
+            border-radius: 20px;
         }
     }  
 }
