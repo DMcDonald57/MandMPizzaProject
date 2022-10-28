@@ -1,6 +1,7 @@
 @use "../pageinfo";
 @use "../headerinfo";
 @use "../footer";
+@use "../links";
 
 nav{
     display: grid;
@@ -8,23 +9,19 @@ nav{
     font-size: 19pt;
     padding: 1vh;
     >#find{
-        background-color: orangered;
         border: 2px solid black;
         border-radius: 20px;
         margin-right: 1vw;
         text-align: center;
         padding: 2vh;
-        text-decoration: none;
         font-weight: bold;
     }   
     >#menu{
-        background-color: orangered;
         border: 2px solid black;
         border-radius: 20px;
         margin-left: 1vw;
         text-align: center;
         padding: 2vh;
-        text-decoration: none;
         font-weight: bold;
     }
 }
