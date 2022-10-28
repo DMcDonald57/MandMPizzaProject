@@ -57,6 +57,9 @@ article{
         height: 130px;
         width: 130px;
         justify-self: center;
+        box-shadow: 6px 6px 5px firebrick;
+        border-radius: 20px;
+
     }
     >p{
         font-size: 24;
@@ -79,6 +82,15 @@ article{
     >span img{
         height: 125px;
     }
+}
+#button{
+    width: 16vw;
+    height: 8vh;
+    font-size: 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: orangered;
+    
 }
 
 // This is the start of the Tablet size screen
@@ -106,9 +118,9 @@ article{
         }
         }
     }
-    #Banner{
+    .Banner{
         font-size: 2rem;
-        height: 7vh;
+        height: 9vh;
     }
     .drinks{
         >span img{
@@ -126,8 +138,8 @@ article{
     nav{
         font-size: 30pt;
     }
-    #Banner{
-        font-size: 2rem;
+    .Banner{
+        font-size: 24pt;
         height: 7vh;
     }
     .menu{
@@ -144,6 +156,8 @@ article{
             height: 200px;
             width: 200px;
             justify-self: center;
+            border-radius: 20px;
+            
         }
         >p{
             font-size: 18pt;
@@ -173,6 +187,9 @@ article{
         >span > img{
             height: 100px;
         }
+    }
+    #button{
+        font-size: 1.5rem;
     }
 }
 
