@@ -47,7 +47,7 @@ header #plainphone {
     display: initial;
     text-align: center;
     font-size: 32pt;
-    padding-top: 2vh;
+    padding-top: 5vh;
     font-weight: bold;
     text-shadow: 0.5px 0.5px whitesmoke;
     font-family: "Italianno";
@@ -173,6 +173,7 @@ nav > #menu {
   font-size: 16pt;
   height: 5vh;
   text-align: center;
+  padding-top: 1vh;
   text-shadow: 3px 0 black, 0 3px black, 0 3px black;
   margin: 1vh;
 }
@@ -248,15 +249,16 @@ article > p {
     font-size: 24pt;
   }
   .hours > img {
-    height: 150px;
+    height: 175px;
     justify-self: center;
   }
   .hours > span {
     font-size: 18pt;
   }
   .Banner {
-    font-size: 24pt;
+    font-size: 30pt;
     height: 10vh;
-    padding-top: 2vh;
+    padding-top: 2.5vh;
+    margin-top: 30px;
   }
 }/*# sourceMappingURL=contact.css.map */

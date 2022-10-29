@@ -3,6 +3,8 @@
 @use "../footer";
 @use "../links";
 
+// Nav buttons between pages
+
 nav{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -69,6 +71,8 @@ nav{
     font-size: 16pt;
     height: 5vh;
     text-align: center;
+    padding-top: 1vh;
+    // slight shadow behind banner text
     text-shadow: 3px 0 black, 0 3px black, 0 3px black;
     margin: 1vh;
 }
@@ -88,6 +92,7 @@ article{
 
 @media only screen and (min-width: 650px){
 
+// This allows the maps to be repsonsive
     .maps{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -154,7 +159,7 @@ article{
     }
     .hours{
         >img{
-            height: 150px;
+            height: 175px;
             justify-self: center;
 
         }
@@ -163,8 +168,9 @@ article{
         }
     }
     .Banner{
-        font-size: 24pt;
+        font-size: 30pt;
         height: 10vh;
-        padding-top: 2vh;
+        padding-top: 2.5vh;
+        margin-top: 30px;
     }
 }    

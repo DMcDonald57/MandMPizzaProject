@@ -47,7 +47,7 @@ header #plainphone {
     display: initial;
     text-align: center;
     font-size: 32pt;
-    padding-top: 2vh;
+    padding-top: 5vh;
     font-weight: bold;
     text-shadow: 0.5px 0.5px whitesmoke;
     font-family: "Italianno";
@@ -178,11 +178,14 @@ article > p {
   .video #brick {
     padding-left: 0;
     border-radius: 20px;
+    align-self: center;
+    height: 35vh;
   }
   .video #brick2 {
     display: initial;
-    height: 30vh;
+    height: 35vh;
     width: 30vw;
     border-radius: 20px;
+    align-self: center;
   }
 }/*# sourceMappingURL=welcomePage.css.map */
