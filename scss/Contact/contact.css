@@ -62,7 +62,7 @@ header #plainphone {
     font-size: 24pt;
   }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1080px) {
   #logo {
     height: 35vh;
   }
@@ -75,7 +75,7 @@ header #plainphone {
     font-family: "Italianno";
   }
   header > p {
-    font-size: 30pt;
+    font-size: 40pt;
   }
 }
 footer {
@@ -240,7 +240,7 @@ article > p {
     font-size: 15pt;
   }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1080px) {
   nav {
     font-size: 30pt;
   }

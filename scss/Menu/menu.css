@@ -62,7 +62,7 @@ header #plainphone {
     font-size: 24pt;
   }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1080px) {
   #logo {
     height: 35vh;
   }
@@ -75,7 +75,7 @@ header #plainphone {
     font-family: "Italianno";
   }
   header > p {
-    font-size: 30pt;
+    font-size: 40pt;
   }
 }
 footer {
@@ -226,7 +226,7 @@ article > p {
     justify-self: center;
   }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1080px) {
   nav {
     font-size: 30pt;
   }
@@ -235,7 +235,7 @@ article > p {
     height: 7vh;
   }
   .menu {
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     margin: 2vh;
   }
   .menu article > h5 {
@@ -244,8 +244,8 @@ article > p {
     margin: 1vh;
   }
   .menu article > img {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     justify-self: center;
     border-radius: 20px;
   }

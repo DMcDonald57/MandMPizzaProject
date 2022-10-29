@@ -62,14 +62,14 @@ article{
         grid-template-columns: 1fr 1fr 1fr;
         #brick{
             display: initial;
-            height: 40vh;
+            height: 30vh;
         }
     }  
 } 
 
 // This is the start of desktop format
 
-@media only screen and (min-width: 1000px){
+@media only screen and (min-width: 1080px){
     nav{
         font-size: 30pt;
     }
@@ -90,7 +90,8 @@ article{
         }
         #brick2{
             display: initial;
-            height: 40vh;
+            height: 30vh;
+            width: 30vw;
             border-radius: 20px;
         }
     }  
